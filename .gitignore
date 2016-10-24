@@ -5,7 +5,7 @@ env/
 bower_components
 *.log
 *.swp
-config/custom*.json
+config/
 scripts/config.js
 build/letlife
 build/vendors
