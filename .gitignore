@@ -1,12 +1,9 @@
 $ cat .gitignore
 node_modules/
 .env
-env/
 bower_components
 *.log
 *.swp
-config/
-scripts/config.js
 build/letlife
 build/vendors
 build/view

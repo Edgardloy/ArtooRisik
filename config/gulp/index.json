@@ -1,0 +1,29 @@
+{
+  "jsSrc":[
+    "public/app.js",
+    "public/**/*module.js",
+    "public/**/*route.js",
+    "public/**/*.js",
+    "!public/**/*specs.js"
+  ],
+
+  "htmlSrc":[
+    "public/**/*.html"
+  ],
+
+  "cssSrc":[
+    "public/**/*.css"
+  ],
+
+  "jsonSrc":[
+    "public/**/*.json"
+  ],
+
+  "buildLibs": [
+    "build/App",
+    "build/view",
+    "build/vendors"
+  ],
+
+  "DEST": "build/App"
+}
