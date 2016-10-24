@@ -1,3 +1,13 @@
 $ cat .gitignore
 node_modules/
-.idea/
+.env
+env/
+bower_components
+*.log
+*.swp
+config/custom*.json
+scripts/config.js
+build/letlife
+build/vendors
+build/view
+coverage
