@@ -35,6 +35,8 @@ APP.use('/', express.static(join(__dirname,  'public')));
 APP.use('/scripts', express.static(join(__dirname,  'node_modules')));
 APP.use('/bundle', express.static(join(__dirname,  'build', 'App')));
 APP.use('/vendor', express.static(join(__dirname,  'build', 'vendors')));
+APP.use('/App', express.static(join(__dirname,  'build')));
+APP.use('/view', express.static(join(__dirname,  'build', 'view')));
 
 
 module.exports = APP;
