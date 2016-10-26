@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,13 +9,16 @@
     <meta name="author" content="Christian Pengu">
     <meta name="application-name" content="Artoo Campus">
     <meta name="viewport" content="width=device-width">
-    
-    <title>ArtooRisico</title>
-    <!-- install bootstrap.css and load it -->
+
+    <title>Artoo Campus</title>
   </head>
   <body ng-app="App"> <!-- bootstrap the app with your module -->
-  
+
+    <div ng-view></div>
+
+    <link rel="stylesheet" type="text/css" href="App/App/style.css">
     <script src="vendor/angular/angular.js"></script>
+    <script src="vendor/angular-route/angular-route.js"></script>
     <script src="bundle/bundle.js"></script>
   </body>
 </html>
