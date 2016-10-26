@@ -1,6 +1,10 @@
 (function(){
   'use strict';
 
-  var App = angular.module('App',[]);
+  var App = angular.module('App',[
+  	'ngRoute',
+
+  	'App.user'
+  ]);
   
  })();
