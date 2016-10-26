@@ -4,7 +4,4 @@ node_modules/
 bower_components
 *.log
 *.swp
-build/letlife
-build/vendors
-build/view
 coverage
